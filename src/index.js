@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import AppTest from './App.test';
+import SetupTest from './setupTests';
 AppTest();
+SetupTest();
 ReactDOM.render(
   <App />,
   document.getElementById('root')
